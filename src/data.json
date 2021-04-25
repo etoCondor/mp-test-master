@@ -1,0 +1,68 @@
+{
+  "locations": [
+    {
+      "locationID": 1,
+      "name": "testenter.ru_01"
+    },
+    {
+      "locationID": 2,
+      "name": "testenter.ru_02"
+    },
+    {
+      "locationID": 3,
+      "name": "testenter.ru_03"
+    },
+    {
+      "locationID": 4,
+      "name": "testenter.ru_04"
+    }
+  ],
+  "envs": [
+    {
+      "envID": 1,
+      "name": "Test_192.168.220.157"
+    },
+    {
+      "envID": 2,
+      "name": "Test_192.168.112.23"
+    }
+  ],
+  "servers": [
+    {
+      "serverID": 41,
+      "name": "MPTEST41",
+      "locationID": 1,
+      "envID": 1
+    },
+    {
+      "serverID": 42,
+      "name": "MPTEST42",
+      "locationID": 1,
+      "envID": 1
+    },
+    {
+      "serverID": 43,
+      "name": "MPTEST43",
+      "locationID": 1,
+      "envID": 2
+    },
+    {
+      "serverID": 44,
+      "name": "MPTEST44",
+      "locationID": 2,
+      "envID": 2
+    },
+    {
+      "serverID": 45,
+      "name": "MPTEST45",
+      "locationID": 3,
+      "envID": 2
+    },
+    {
+      "serverID": 46,
+      "name": "MPTEST46",
+      "locationID": 4,
+      "envID": 2
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.App {
+	width: 70%;
+	margin: 20px auto;
+}
+.location {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 30px;
+	border: 2px solid lightgray;
+	width: 100%;
+	overflow-x: scroll;
+}
+.location:hover {
+	border: 2px solid blue;
+}
+header {
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+}
+header h1 {
+	flex-grow: 1;
+	margin: 0;
+	background: url("./img/vial-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 0;
+	padding-left: 1.5em;
+}
+.trash {
+	margin-top: 0.5em;
+	cursor: pointer;
+	width: 1.5em;
+	height: 1.5em;
+	background: url("./img/trash-alt-solid.svg") no-repeat;
+	filter: invert(21%) sepia(98%) saturate(6015%) hue-rotate(357deg)
+		brightness(102%) contrast(118%);
+}
+.leftDiv {
+	width: 10%;
+}
+.rightDiv {
+	width: 90%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.topDiv {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+select {
+	padding-left: 2.5em;
+	width: 100%;
+	border: 2px solid lightgray;
+	font-size: 1em;
+}
+.locationID {
+	display: flex;
+	width: 25%;
+}
+.locationSelect {
+	background: url("./img/map-marker-alt-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 1em;
+}
+
+.envID {
+	display: flex;
+	width: 40%;
+}
+.envID p {
+	margin: 1em;
+}
+.envSelect {
+	background: url("./img/envira-brands.svg") no-repeat;
+	background-size: 1em;
+	background-position: 1em;
+}
+.servers {
+	display: flex;
+	width: 35%;
+}
+.servers p {
+	font-size: 1em;
+	padding: 0.5rem;
+	display: flex;
+	vertical-align: bottom;
+	margin: 5px;
+}
+.serversInfo {
+	display: inline-flex;
+	background: url("./img/server-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 0 0.9em;
+	padding-left: 0.5em;
+}
+.bottomDiv {
+	width: 100%;
+	display: flex;
+}
+.bottomDiv input {
+	font-size: 1em;
+	width: 100%;
+	border: 2px solid lightgray;
+	padding-left: 2.5em;
+	background: url("./img/question-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 1em;
+}
+.buttons {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 30px;
+}
+button {
+	font-size: 1.9em;
+	background-color: white;
+
+	min-height: 2em;
+	height: auto;
+	padding-left: 2em;
+	cursor: pointer;
+	filter: invert(54%) sepia(77%) saturate(6214%) hue-rotate(193deg)
+		brightness(103%) contrast(106%);
+}
+
+.addBtn {
+	background: url("./img/plus-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 0.5em;
+}
+.logBtn {
+	background: url("./img/plus-solid.svg") no-repeat;
+	background-size: 1em;
+	background-position: 0.5em;
+}
