@@ -52,11 +52,13 @@ header h1 {
 }
 .leftDiv {
 	width: 10%;
+	overflow-y: scroll;
 }
 .rightDiv {
 	width: 90%;
 	display: inline-flex;
 	justify-content: space-between;
+	overflow-y: scroll;
 }
 .topDiv {
 	display: flex;
@@ -66,18 +68,22 @@ header h1 {
 }
 select {
 	padding-left: 2.5em;
+	padding-right: 1em;
 	width: 100%;
 	border: 2px solid lightgray;
 	font-size: 1em;
+	appearance: none;
+	overflow-y: scroll;
 }
+
 .locationID {
 	display: flex;
 	width: 25%;
 }
 .locationSelect {
-	background: url("./img/map-marker-alt-solid.svg") no-repeat;
+	background: url("./img/map-marker-alt-solid.svg") no-repeat 1em,
+		url("./img/angle-down-solid.svg") no-repeat right 0.7em center;
 	background-size: 1em;
-	background-position: 1em;
 }
 
 .envID {
@@ -88,9 +94,9 @@ select {
 	margin: 1em;
 }
 .envSelect {
-	background: url("./img/envira-brands.svg") no-repeat;
+	background: url("./img/envira-brands.svg") no-repeat 1em,
+		url("./img/angle-down-solid.svg") no-repeat right 0.7em center;
 	background-size: 1em;
-	background-position: 1em;
 }
 .servers {
 	display: flex;
